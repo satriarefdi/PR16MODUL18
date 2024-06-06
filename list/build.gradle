@@ -6,9 +6,9 @@ plugins {
     id 'buildlogic.java-library-conventions'
 }
 tasks.register("hello") {
-    description = 'Menampilkan pesan hello satria'
+    description = 'Menampilkan pesan hello world'
     doLast { 
-        println 'Hello, Satria!'
+        println 'Hello, World!'
     }
 }
 
